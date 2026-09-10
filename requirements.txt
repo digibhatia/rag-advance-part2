@@ -1,0 +1,17 @@
+openai
+python-dotenv
+langchain
+langchain-openai
+langchain-chroma
+langchain-community
+chromadb
+fastapi
+uvicorn
+requests
+pymupdf
+python-docx
+beautifulsoup4
+rank_bm25
+sentence-transformers
+ragas
+datasets

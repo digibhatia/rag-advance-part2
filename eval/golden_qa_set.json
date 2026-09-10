@@ -1,0 +1,54 @@
+[
+  {
+    "question": "What is the maximum indoor EIRP for Band 78 deployments?",
+    "expected_source": "01_5g_deployment_sop.pdf",
+    "expected_answer_contains": "24 dBm"
+  },
+  {
+    "question": "What is the minimum antenna mounting height for indoor small cells?",
+    "expected_source": "01_5g_deployment_sop.pdf",
+    "expected_answer_contains": "2.4"
+  },
+  {
+    "question": "What service credit applies if uptime falls below the SLA guarantee?",
+    "expected_source": "02_enterprise_sla.docx",
+    "expected_answer_contains": "2%"
+  },
+  {
+    "question": "What is the escalation path for SLA measurement disputes?",
+    "expected_source": "02_enterprise_sla.docx",
+    "expected_answer_contains": "Account Managers"
+  },
+  {
+    "question": "Who do I contact for a P1 escalation outside business hours?",
+    "expected_source": "03_network_ops_faq.html",
+    "expected_answer_contains": "Duty Manager"
+  },
+  {
+    "question": "What is the target resolution time for a P1 incident?",
+    "expected_source": "03_network_ops_faq.html",
+    "expected_answer_contains": "4 hours"
+  },
+  {
+    "question": "Which incidents in the log are still Open?",
+    "expected_source": "04_noc_incident_log.csv",
+    "expected_answer_contains": "INC-10235"
+  },
+  {
+    "question": "Which vendor's equipment is NOT approved for indoor deployment, and why?",
+    "expected_source": "05_vendor_equipment_specs.json",
+    "expected_answer_contains": "Huawei"
+  },
+  {
+    "question": "What is the corporate tax rate NCS Telco+ pays?",
+    "expected_source": null,
+    "expected_answer_contains": null,
+    "should_refuse": true
+  },
+  {
+    "question": "What is our standard notice period for employee resignation?",
+    "expected_source": null,
+    "expected_answer_contains": null,
+    "should_refuse": true
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "document_id": "NCS-VENDOR-SPEC-03",
+  "version": "1.1",
+  "effective_date": "2026-02-01",
+  "classification": "Internal Training Use Only (Sample Data)",
+  "equipment": [
+    {
+      "vendor": "Nokia",
+      "model": "AirScale Indoor Small Cell",
+      "supported_bands": ["Band 78 (3.3-3.8 GHz)", "Band 40"],
+      "max_output_power_dbm": 24,
+      "power_supply": "PoE++ (802.3bt), 90W",
+      "warranty_years": 3,
+      "notes": "Primary vendor for indoor 5G deployments under NCS-5G-SOP-014."
+    },
+    {
+      "vendor": "Ericsson",
+      "model": "Radio Dot System (RDS)",
+      "supported_bands": ["Band 78", "Band 41"],
+      "max_output_power_dbm": 21,
+      "power_supply": "PoE (802.3af), 30W",
+      "warranty_years": 2,
+      "notes": "Approved alternate vendor for low-power indoor zones such as small meeting rooms."
+    },
+    {
+      "vendor": "Huawei",
+      "model": "AAU5613 Macro Antenna Unit",
+      "supported_bands": ["Band 78", "Band 1", "Band 3"],
+      "max_output_power_dbm": 65,
+      "power_supply": "Direct AC, site power",
+      "warranty_years": 5,
+      "notes": "Outdoor macro-cell unit only. Not approved for indoor deployment under NCS-5G-SOP-014 due to power output exceeding indoor limits."
+    },
+    {
+      "vendor": "Samsung",
+      "model": "vRAN Compact Indoor Unit",
+      "supported_bands": ["Band 78"],
+      "max_output_power_dbm": 23,
+      "power_supply": "PoE++ (802.3bt), 75W",
+      "warranty_years": 3,
+      "notes": "Approved vendor, pending final NOC certification as of this document's effective date."
+    }
+  ]
+}
