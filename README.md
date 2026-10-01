@@ -4,9 +4,6 @@
 retrieval, cross-encoder reranking, query transformation, metadata
 enrichment, and automated evaluation against a golden Q&A set.*
 
-**Trainer:** Akansha Bhatia — Founder & CTO, Smart2Deploy Services Pvt. Ltd.
-SME Trainer & Solutions Architect, NIIT StackRoute | NCS Telco+ Programme
-
 ---
 
 ## 1. What Changed Since Disha (Day 5)
